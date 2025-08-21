@@ -1,0 +1,47 @@
+[
+	{
+		"datetime": "2025-09-22T20:15+01:00",
+		"venue": "Onslow St Audrey's School, Hatfield",
+		"homeTeam": "Ravens",
+		"awayTeam": "Birchwood Braves",
+		"homeScore": "",
+		"awayScore": "",
+		"squad": [
+			{
+				"number": "4",
+				"name": "David S",
+				"licence": "xxxx"
+			},
+			{
+				"number": "6",
+				"name": "Richard H",
+				"licence": "xxxx"
+			}
+		]
+	},
+	{
+		"datetime": "2025-09-22T20:15+01:00",
+		"venue": "Onslow St Audrey's School, Hatfield",
+		"homeTeam": "Ravens",
+		"awayTeam": "Birchwood Braves",
+		"homeScore": "",
+		"awayScore": "",
+		"squad": [
+			{
+				"number": "4",
+				"name": "David S",
+				"licence": "xxxx"
+			},
+			{
+				"number": "5",
+				"name": "David S",
+				"licence": "xxxx"
+			},
+			{
+				"number": "6",
+				"name": "Richard H",
+				"licence": "xxxx"
+			}
+		]
+	}
+]
