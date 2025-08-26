@@ -33,7 +33,7 @@ title: Fixtures
 					<td>
 						{%- if players %}
 							<details>
-								<summary>Players</summary>
+								<summary>Players ({{ players | size }})</summary>
 								<ul>
 									{%- for player in players -%}
 										<li>{{ player.kit }} - {{ player.givenName }}, {{ player.familyName | first }} ({{ player.licence }})</li>
