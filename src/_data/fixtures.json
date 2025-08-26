@@ -1,6 +1,6 @@
 [
 	{
-		"datetime": "2025-09-02T19:15+01:00",
+		"datetime": "2025-09-02T19:15",
 		"venue": "Birchwood Leisure Centre, Hatfield",
 		"mapLink": "https://maps.app.goo.gl/T3aqQeoRWYT7TWUq7",
 		"homeTeam": "Birchwood Braves",
@@ -71,7 +71,7 @@
 				]
 	},
 	{
-		"datetime": "2025-09-22T20:15+01:00",
+		"datetime": "2025-09-22T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
 		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
 		"homeTeam": "Ravens",
@@ -80,7 +80,7 @@
 		"awayScore": ""
 	},
 	{
-		"datetime": "2025-10-06T20:15+01:00",
+		"datetime": "2025-10-06T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
 		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
 		"homeTeam": "Ravens",
@@ -89,7 +89,7 @@
 		"awayScore": ""
 	},
 	{
-		"datetime": "2025-10-20T20:15+01:00",
+		"datetime": "2025-10-20T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
 		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
 		"homeTeam": "Ravens",
@@ -98,7 +98,7 @@
 		"awayScore": ""
 	},
 	{
-		"datetime": "2025-11-03T20:15+00:00",
+		"datetime": "2025-11-03T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
 		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
 		"homeTeam": "Ravens",
@@ -107,7 +107,7 @@
 		"awayScore": ""
 	},
 	{
-		"datetime": "2025-11-17T20:15+00:00",
+		"datetime": "2025-11-17T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
 		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
 		"homeTeam": "Ravens",
@@ -116,7 +116,7 @@
 		"awayScore": ""
 	},
 	{
-		"datetime": "2025-12-08T20:15+00:00",
+		"datetime": "2025-12-08T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
 		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
 		"homeTeam": "Ravens",
@@ -125,7 +125,7 @@
 		"awayScore": ""
 	},
 	{
-		"datetime": "2026-02-23T20:15+00:00",
+		"datetime": "2026-02-23T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
 		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
 		"homeTeam": "Ravens",
@@ -134,7 +134,7 @@
 		"awayScore": ""
 	},
 	{
-		"datetime": "2026-03-09T20:15+00:00",
+		"datetime": "2026-03-09T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
 		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
 		"homeTeam": "Ravens",
