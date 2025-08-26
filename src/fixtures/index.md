@@ -36,7 +36,7 @@ title: Fixtures
 								<summary>Players</summary>
 								<ul>
 									{%- for player in players -%}
-										<li>{{ player.number }} - {{ player.name }} ({{ player.licence }})</li>
+										<li>{{ player.kit }} - {{ player.givenName }}, {{ player.familyName | first }} ({{ player.licence }})</li>
 									{% endfor %}
 								</ul>
 							</details>
