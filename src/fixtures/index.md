@@ -28,7 +28,7 @@ title: Fixtures
 				<tr>
 					<td>{{ fixture.datetime | date: "%a, %e%q %b %Y" }}</td>
 					<td>{{ fixture.datetime | date: "%l:%M%P" }}</td>
-					<td>{%- if fixture.homeTeam != "" %}{{ fixture.homeTeam }} vs {{ fixture.awayTeam }}<br>{% endif %}
+					<td>{%- if fixture.homeTeam != "" %}{{ fixture.homeTeam }} vs {% if fixture.awayTeam == '' -%}TBC{%- else -%}{{ fixture.awayTeam }}{%- endif -%}<br>{% endif %}
 					<a href="{{ fixture.mapLink }}" target="_blank">{{ fixture.venue }}</a></td>
 					<td>
 						{%- if players %}
@@ -48,9 +48,23 @@ title: Fixtures
 	</table>
 </figure>
 
+
+{%- assign today = 'now' | date: '%s' %}
+{%- assign pastGames = '' | split: '' %}
+
+{%- for fixture in fixtures %}
+	{%- assign date_timestamp = fixture.datetime | date: '%s' %}
+
+	{%- if date_timestamp < today %}
+		{% assign pastGames = pastGames | push: fixture %}
+	{%- endif %}
+{%- endfor %}
+
+{%- if pastGames.size > 0 -%}
 ## Past Games
 Date | Home vs Away Team
 -- | --
-{% for fixture in fixtures -%}
-{{ fixture.datetime | date: "%a, %d%q %b %Y" }} | {{ fixture.homeTeam }} 55 vs 23 {{ fixture.awayTeam }}
+{% for fixture in pastGames -%}
+{{ fixture.datetime | date: "%a, %e%q %b %Y" }} | {{ fixture.homeTeam }} {{ fixture.homeScore }} vs {{ fixture.awayScore }} {{ fixture.awayTeam }}
 {% endfor %}
+{% endif %}
