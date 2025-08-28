@@ -1,0 +1,116 @@
+---
+layout: default.html
+title: Fixtures
+---
+
+<h2 class="text-2xl font-bold">
+	Upcoming Games
+</h2>
+
+<div class="overflow-x-auto">
+	<table class="table table-zebra">
+		<thead>
+			<tr>
+				<th>Date</th>
+				<th>Tipoff</th>
+				<th>Home vs Away</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			{% for fixture in fixtures -%}
+				{%- assign players = fixture.squad -%}
+				{%- assign officials = fixture.officials -%}
+				<tr>
+					<td class="align-top">{{ fixture.datetime | date: "%a, %e%q %b %Y" }}</td>
+					<td class="align-top">{{ fixture.datetime | date: "%l:%M%P" }}</td>
+					<td class="align-top">
+						{%- if fixture.homeTeam != "" %}{{ fixture.homeTeam }} vs {% if fixture.awayTeam == '' -%}TBC{%- else -%}{{ fixture.awayTeam }}{%- endif -%}<br>{% endif %}
+						<a href="{{ fixture.mapLink }}" class="link" target="_blank">{{ fixture.venue }}</a>
+					</td>
+					<td>
+						{%- if players %}
+							<div class="collapse collapse-arrow bg-base-100 border-base-300 ">
+								<input type="checkbox" />
+
+								<div class="collapse-title font-semibold">Players / Officials</div>
+
+								<div class="collapse-content text-sm">
+									<div class="flex flex-row">
+										<div class="basis-1/2">
+											<h3 class="xl-text font-semibold">Players ({{ players | size }})</h3>
+
+											<table class="table table-zebra">
+												<thead>
+													<th>Kit</th>
+													<th>Name</th>
+													<th>Licence</th>
+												</thead>
+
+												<tbody>
+													{%- for player in players -%}
+														<tr>
+															<td>{{ player.kit }}</td>
+															<td>{{ player.givenName }}, {{ player.familyName | first }}</td>
+															<td>{%- if player.licence == '' -%}TBC{%- else %}{{ player.licence }}{%- endif -%}</td>
+														</tr>
+													{% endfor %}
+												</tbody>
+											</table>
+										</div>
+
+										<div class="basis-1/2">
+											<h3 class="xl-text font-semibold">Officials</h3>
+
+											<table class="table table-zebra">
+												<thead>
+													<th>Role</th>
+													<th>Name</th>
+													<th>Licence</th>
+												</thead>
+
+												<tbody>
+													{%- for official in fixture.officials -%}
+														<tr>
+															<td>{{ official.role }}</td>
+															<td>{%- if official.givenName == '' -%}TBC{%- else %}{{ official.givenName }}, {{ official.familyName | first }}{%- endif -%}</td>
+															<td>{%- if official.licence == '' -%}TBC{%- else %}{{ official.licence }}{%- endif -%}</td>
+														</tr>
+													{% endfor %}
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						{% endif %}
+					</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
+
+
+
+
+
+{%- assign today = 'now' | date: '%s' %}
+{%- assign pastGames = '' | split: '' %}
+
+{%- for fixture in fixtures %}
+	{%- assign date_timestamp = fixture.datetime | date: '%s' %}
+
+	{%- if date_timestamp < today %}
+		{% assign pastGames = pastGames | push: fixture %}
+	{%- endif %}
+{%- endfor %}
+
+{%- if pastGames.size > 0 -%}
+## Past Games
+Date | Home vs Away Team
+-- | --
+{% for fixture in pastGames -%}
+{{ fixture.datetime | date: "%a, %e%q %b %Y" }} | {{ fixture.homeTeam }} {{ fixture.homeScore }} vs {{ fixture.awayScore }} {{ fixture.awayTeam }}
+{% endfor %}
+{% endif %}

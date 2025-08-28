@@ -1,4 +1,6 @@
-export default async function( eleventyConfig ) {};
+export default async function( eleventyConfig ) {
+	eleventyConfig.addPassthroughCopy( './src/*.css' );
+};
 
 import 'dotenv/config';
 

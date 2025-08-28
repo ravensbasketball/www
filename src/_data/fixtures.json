@@ -8,72 +8,94 @@
 		"homeScore": "",
 		"awayScore": "",
 		"squad": [
-					{
-						"kit": "4",
-						"givenName": "David",
-						"familyName": "Shore",
-						"licence": "TBC"
-					},
-					{
-						"kit": "5",
-						"givenName": "Dominic",
-						"familyName": "Garcia",
-						"licence": "TBC"
-					},
-					{
-						"kit": "6",
-						"givenName": "Richard",
-						"familyName": "Herbert",
-						"licence": "TBC"
-					},
-					{
-						"kit": "7",
-						"givenName": "Otto",
-						"familyName": "Opiyo",
-						"licence": "TBC"
-					},
-					{
-						"kit": "11",
-						"givenName": "Cameron",
-						"familyName": "Walters",
-						"licence": "TBC"
-					},
-					{
-						"kit": "17",
-						"givenName": "Dan",
-						"familyName": "Large",
-						"licence": "TBC"
-					},
-					{
-						"kit": "22",
-						"givenName": "Damir",
-						"familyName": "Davis",
-						"licence": "TBC"
-					},
-					{
-						"kit": "33",
-						"givenName": "Neil",
-						"familyName": "McCutcheon",
-						"licence": "TBC"
-					},
-					{
-						"kit": "49",
-						"givenName": "Dan",
-						"familyName": "Bernard",
-						"licence": "TBC"
-					},
-					{
-						"kit": "55",
-						"givenName": "Lester",
-						"familyName": "Confessor",
-						"licence": "TBC"
-					}
-				]
+			{
+				"kit": "4",
+				"givenName": "David",
+				"familyName": "Shore",
+				"licence": ""
+			},
+			{
+				"kit": "5",
+				"givenName": "Dominic",
+				"familyName": "Garcia",
+				"licence": ""
+			},
+			{
+				"kit": "6",
+				"givenName": "Richard",
+				"familyName": "Herbert",
+				"licence": ""
+			},
+			{
+				"kit": "7",
+				"givenName": "Otto",
+				"familyName": "Opiyo",
+				"licence": ""
+			},
+			{
+				"kit": "11",
+				"givenName": "Cameron",
+				"familyName": "Walters",
+				"licence": ""
+			},
+			{
+				"kit": "17",
+				"givenName": "Dan",
+				"familyName": "Large",
+				"licence": ""
+			},
+			{
+				"kit": "22",
+				"givenName": "Damir",
+				"familyName": "Davis",
+				"licence": ""
+			},
+			{
+				"kit": "33",
+				"givenName": "Neil",
+				"familyName": "McCutcheon",
+				"licence": ""
+			},
+			{
+				"kit": "49",
+				"givenName": "Dan",
+				"familyName": "Bernard",
+				"licence": ""
+			},
+			{
+				"kit": "55",
+				"givenName": "Lester",
+				"familyName": "Confessor",
+				"licence": ""
+			}
+		],
+		"officials": [
+			{
+				"role": "Referee",
+				"givenName": "",
+				"licence": ""
+			},
+			{
+				"role": "Umpire",
+				"givenName": "",
+				"licence": ""
+			},
+			{
+				"role": "Scorer",
+				"givenName": "",
+				"licence": ""
+			},
+			{
+				"role": "Timekeeper",
+				"givenName": "",
+				"licence": ""
+			}
+		]
 	},
 	{
 		"datetime": "2025-09-22T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
-		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
+		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens",
 		"awayTeam": "",
 		"homeScore": "",
@@ -82,7 +104,7 @@
 	{
 		"datetime": "2025-10-06T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
-		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
+		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens",
 		"awayTeam": "",
 		"homeScore": "",
@@ -91,7 +113,7 @@
 	{
 		"datetime": "2025-10-20T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
-		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
+		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens",
 		"awayTeam": "",
 		"homeScore": "",
@@ -100,7 +122,7 @@
 	{
 		"datetime": "2025-11-03T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
-		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
+		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens",
 		"awayTeam": "",
 		"homeScore": "",
@@ -109,7 +131,7 @@
 	{
 		"datetime": "2025-11-17T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
-		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
+		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens",
 		"awayTeam": "",
 		"homeScore": "",
@@ -118,7 +140,7 @@
 	{
 		"datetime": "2025-12-08T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
-		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
+		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens",
 		"awayTeam": "",
 		"homeScore": "",
@@ -127,7 +149,7 @@
 	{
 		"datetime": "2026-02-23T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
-		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
+		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens",
 		"awayTeam": "",
 		"homeScore": "",
@@ -136,7 +158,7 @@
 	{
 		"datetime": "2026-03-09T20:15",
 		"venue": "Onslow St Audrey's School, Hatfield",
-		"mapLink": "https://maps.app.goo.gl/kcjVPyJtVNRmFW6N6",
+		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens",
 		"awayTeam": "",
 		"homeScore": "",

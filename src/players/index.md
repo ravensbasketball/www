@@ -1,9 +1,7 @@
 ---
 layout: default.html
-title:
+title: Players
 ---
-
-# Players
 
 Kit | Name | Licence
 -- | -- | --

@@ -1,6 +1,6 @@
 ---
 layout: default.html
-title:
+title: Ravens Basketball Club
 ---
 
 # Ravens Basketball Club

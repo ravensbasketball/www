@@ -1,0 +1,11 @@
+/*
+	npm install tailwindcss @tailwindcss/cli
+	npm install @tailwindcss/typography@latest
+	npm install -D daisyui@latest
+
+	npx @tailwindcss/cli -i ./tailwind.css -o ./src/styles.css --watch
+*/
+
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@plugin 'daisyui';
