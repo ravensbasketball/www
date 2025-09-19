@@ -7,11 +7,6 @@ title: Fixtures
 
 ## Upcoming Games
 
-
-
-
-
-
 <figure>
 	<table>
 		<thead>
@@ -36,7 +31,7 @@ title: Fixtures
 								<summary>Players ({{ players | size }})</summary>
 								<ul>
 									{%- for player in players -%}
-										<li>{{ player.kit }} - {{ player.givenName }}, {{ player.familyName | first }} ({{ player.licence }})</li>
+										<li>{{ player.kit }} - {{ player.givenName }}, {{ player.familyName | first }}</li>
 									{% endfor %}
 								</ul>
 							</details>
