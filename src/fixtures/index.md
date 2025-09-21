@@ -5,6 +5,11 @@ title: Fixtures
 
 # Fixtures
 
+* [Subscribe to fixtures calendar (macOS/iOS/Outlook)](webcal://calendar.google.com/calendar/ical/ravensbasketballuk%40gmail.com/public/basic.ics)
+* [Subscribe to fixtures calendar (Google)](https://calendar.google.com/calendar/?cid=https://calendar.google.com/calendar/ical/ravensbasketballuk%40gmail.com/public/basic.ics)
+
+<iframe src="https://calendar.google.com/calendar/embed?src=ravensbasketballuk%40gmail.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 ## Upcoming Games
 
 <figure>
@@ -20,13 +25,18 @@ title: Fixtures
 		<tbody>
 			{% for fixture in fixtures -%}
 				{%- assign players = fixture.squad -%}
-				<tr>
-					<td>{{ fixture.datetime | date: "%a, %e%q %b %Y" }}</td>
-					<td>{{ fixture.datetime | date: "%l:%M%P" }}</td>
-					<td>{%- if fixture.homeTeam != "" %}{{ fixture.homeTeam }} vs {% if fixture.awayTeam == '' -%}TBC{%- else -%}{{ fixture.awayTeam }}{%- endif -%}<br>{% endif %}
-					<a href="{{ fixture.mapLink }}" target="_blank">{{ fixture.venue }}</a></td>
+				{%- assign squadSize = players | size -%}
+				<tr id="{{ fixture.datetime }}">
+					<td style="vertical-align: top;">
+						{{ fixture.datetime | date: "%a, %e%q %b %Y" }}<br><br>
+					</td>
+					<td style="vertical-align: top;">{{ fixture.datetime | date: "%l:%M%P" }}</td>
+					<td style="vertical-align: top;">
+						{%- if fixture.homeTeam != "" %}{{ fixture.homeTeam }} vs {% if fixture.awayTeam == '' -%}TBC{%- else -%}{{ fixture.awayTeam }}{%- endif -%}<br>{% endif %}
+						<a href="{{ fixture.mapLink }}" target="_blank">{{ fixture.venue | replace: ",", "<br>" }}</a>
+					</td>
 					<td>
-						{%- if players %}
+						{%- if squadSize > 0 %}
 							<details>
 								<summary>Players ({{ players | size }})</summary>
 								<ul>
@@ -43,7 +53,7 @@ title: Fixtures
 	</table>
 </figure>
 
-
+{% comment %}
 {%- assign today = 'now' | date: '%s' %}
 {%- assign pastGames = '' | split: '' %}
 
@@ -63,3 +73,4 @@ Date | Home vs Away Team
 {{ fixture.datetime | date: "%a, %e%q %b %Y" }} | {{ fixture.homeTeam }} {{ fixture.homeScore }} vs {{ fixture.awayScore }} {{ fixture.awayTeam }}
 {% endfor %}
 {% endif %}
+{% endcomment %}
