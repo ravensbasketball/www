@@ -28,7 +28,7 @@ title: Fixtures
 				{%- assign squadSize = players | size -%}
 				<tr id="{{ fixture.datetime }}">
 					<td style="vertical-align: top;">
-						{{ fixture.datetime | date: "%a, %e%q %b %Y" }}<br><br>
+						<a href="#{{ fixture.datetime }}">{{ fixture.datetime | date: "%a, %e%q %b %Y" }}</a>
 					</td>
 					<td style="vertical-align: top;">{{ fixture.datetime | date: "%l:%M%P" }}</td>
 					<td style="vertical-align: top;">
