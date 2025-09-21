@@ -15,23 +15,10 @@
 		"venue": "Sports Hall Building 19, Cranfield University, Lanchester Road, Cranfield, Mk43 0AL",
 		"mapLink": "https://maps.app.goo.gl/d4B7AoSKGRNLrSSA6",
 		"homeTeam": "Cranfield",
-		"awayTeam": "Ravens",
+		"awayTeam": "Ravens (to be rearranged)",
 		"homeScore": "",
 		"awayScore": "",
-		"squad": [
-			{
-				"kit": "33",
-				"givenName": "Neil",
-				"familyName": "McCutcheon",
-				"licence": "TBC"
-			},
-			{
-				"kit": "55",
-				"givenName": "Lester",
-				"familyName": "Confessor",
-				"licence": "TBC"
-			}
-		],
+		"squad": [],
 		"officials": []
 	},
 	{
