@@ -5,8 +5,9 @@ title: Fixtures
 
 # Fixtures
 
-* [Subscribe to fixtures calendar (macOS/iOS/Outlook)](webcal://calendar.google.com/calendar/ical/ravensbasketballuk%40gmail.com/public/basic.ics)
-* [Subscribe to fixtures calendar (Google)](https://calendar.google.com/calendar/?cid=https://calendar.google.com/calendar/ical/ravensbasketballuk%40gmail.com/public/basic.ics)
+* Subscribe to the fixtures calendar (should update automatically)
+	* [macOS/iOS/Outlook](webcal://calendar.google.com/calendar/ical/ravensbasketballuk%40gmail.com/public/basic.ics)
+	* [Google Calendar](https://calendar.google.com/calendar/?cid=https://calendar.google.com/calendar/ical/ravensbasketballuk%40gmail.com/public/basic.ics)
 
 <details>
 	<summary>Google Calendar</summary>
