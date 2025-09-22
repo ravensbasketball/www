@@ -34,3 +34,9 @@ Then take the first right down into the car park. The sports hall entrance is on
 	<img alt="Sports hall" src="/assets/images/onslow-sports-hall.png" />
 	<figcaption>Onslow St Audrey’s sports hall</figcaption>
 </figure>
+
+
+## Kit
+
+* Home - Black
+* Away - White
