@@ -11,11 +11,11 @@
 		"officials": []
 	},
 	{
-		"datetime": "2025-10-02T20:00",
+		"datetime": "2025-10-30T20:00",
 		"venue": "Sports Hall Building 19, Cranfield University, Lanchester Road, Cranfield, Mk43 0AL",
 		"mapLink": "https://maps.app.goo.gl/d4B7AoSKGRNLrSSA6",
 		"homeTeam": "Cranfield",
-		"awayTeam": "Ravens (to be rearranged)",
+		"awayTeam": "Ravens",
 		"homeScore": "",
 		"awayScore": "",
 		"squad": [],
@@ -44,7 +44,7 @@
 		"officials": []
 	},
 	{
-		"datetime": "2025-10-21T20:00",
+		"datetime": "2025-10-28T20:00",
 		"venue": "Birchwood Leisure Centre, Hatfield, AL10 0AN",
 		"mapLink": "https://maps.app.goo.gl/6crmfBtPLiB6fT7B7",
 		"homeTeam": "Birchwood Braves",

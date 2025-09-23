@@ -5,7 +5,7 @@ title: Fixtures
 
 # Fixtures
 
-* Subscribe to the fixtures calendar (should update automatically)
+* To get an automatically updated view of all our fixtures, subscribe to our fixtures calendar with your mobile or desktop calendar application:
 	* [macOS/iOS/Outlook](webcal://calendar.google.com/calendar/ical/ravensbasketballuk%40gmail.com/public/basic.ics)
 	* [Google Calendar](https://calendar.google.com/calendar/?cid=https://calendar.google.com/calendar/ical/ravensbasketballuk%40gmail.com/public/basic.ics)
 
