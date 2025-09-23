@@ -35,8 +35,9 @@ Then take the first right down into the car park. The sports hall entrance is on
 	<figcaption>Onslow St Audrey’s sports hall</figcaption>
 </figure>
 
-
 ## Kit
 
-* Home - Black
-* Away - White
+<figure>
+	<img alt="Ravens Home and Away Kit" src="/assets/images/home-away-kit.png" />
+	<figcaption>Home - Black | Away - White</figcaption>
+</figure>
