@@ -1,6 +1,6 @@
 ---
 layout: default.html
-title:
+date: git Last Modified
 ---
 
 # Club Information
@@ -39,5 +39,5 @@ Then take the first right down into the car park. The sports hall entrance is on
 
 <figure>
 	<img alt="Ravens Home and Away Kit" src="/assets/images/home-away-kit.png" />
-	<figcaption>Home - Black | Away - White</figcaption>
+	<figcaption>Home - White | Away - Black</figcaption>
 </figure>

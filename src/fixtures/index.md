@@ -1,6 +1,7 @@
 ---
-layout: default.html
 title: Fixtures
+layout: default.html
+date: git Last Modified
 ---
 
 # Fixtures

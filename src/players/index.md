@@ -1,6 +1,7 @@
 ---
-layout: default.html
 title: Players
+layout: default.html
+date: git Last Modified
 ---
 
 # Players
