@@ -15,7 +15,7 @@ Hertfordshire<br>
 AL10 8AB<br>
 </address>
 
-</p>
+The sports hall is open from 8-9:30pm with tip off at 8:15pm.
 
 <iframe width="725" height="450" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.22825598716735843%2C51.75768025758381%2C-0.21560668945312503%2C51.76240842197431&amp;layer=mapnik&amp;marker=51.760044401668644%2C-0.2219313383102417" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=51.760044&amp;mlon=-0.221931#map=17/51.760044/-0.221931">View Larger Map</a></small>
 
