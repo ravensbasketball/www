@@ -11,7 +11,7 @@
 		"officials": []
 	},
 	{
-		"datetime": "2025-10-30T20:00",
+		"datetime": "2025-11-03T20:00",
 		"venue": "Sports Hall Building 19, Cranfield University, Lanchester Road, Cranfield, Mk43 0AL",
 		"mapLink": "https://maps.app.goo.gl/d4B7AoSKGRNLrSSA6",
 		"homeTeam": "Cranfield",
@@ -27,8 +27,9 @@
 		"mapLink": "https://maps.app.goo.gl/BaT3DF9RnMhjn4pn9",
 		"homeTeam": "Aylesbury Dux Masters",
 		"awayTeam": "Ravens (Cup)",
-		"homeScore": "",
-		"awayScore": "",
+		"homeScore": "66",
+		"awayScore": "34",
+		"scoresheet": "2025-10-10-Aylesbury-Dux-Masters-vs-Ravens-Results.pdf",
 		"squad": [],
 		"officials": []
 	},
@@ -198,7 +199,7 @@
 		"officials": []
 	},
 	{
-		"datetime": "2026-02-16T20:15",
+		"datetime": "2026-03-16T20:15",
 		"venue": "Onslow St Audrey's School, Old Rectory Drive, Hatfield, AL10 8AB",
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens",
