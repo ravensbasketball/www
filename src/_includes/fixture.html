@@ -1,0 +1,27 @@
+{%- assign players = fixture.squad -%}
+{%- assign squadSize = players | size -%}
+<tr id="{{ fixture.datetime }}">
+	<td style="vertical-align: top;">
+		<a href="#{{ fixture.datetime }}">{{ fixture.datetime | date: "%a, %e%q %b %Y" }}</a>
+		{%- if fixture.scoresheet -%}
+			<p><a href="/assets/results/2025-10-10-Aylesbury-Dux-Masters-vs-Ravens-Results.pdf" target="_blank">Score sheet</a></p>
+		{%- endif-%}
+	</td>
+	<td style="vertical-align: top;">{{ fixture.datetime | date: "%l:%M%P" }}</td>
+	<td style="vertical-align: top;">
+		{%- if fixture.homeTeam != "" %}{{ fixture.homeTeam }} {{ fixture.homeScore }} vs {{ fixture.awayScore }} {% if fixture.awayTeam == '' -%}TBC{%- else -%}{{ fixture.awayTeam }}{%- endif -%}<br>{% endif %}
+		<a href="{{ fixture.mapLink }}" target="_blank">{{ fixture.venue | replace: ",", "<br>" }}</a>
+	</td>
+	<!-- <td>
+		{%- if squadSize > 0 %}
+			<details>
+				<summary>Players ({{ players | size }})</summary>
+				<ul>
+					{%- for player in players -%}
+						<li>{{ player.kit }} - {{ player.givenName }}, {{ player.familyName | first }}</li>
+					{% endfor %}
+				</ul>
+			</details>
+		{% endif %}
+	</td> -->
+</tr>
