@@ -17,7 +17,7 @@ date: git Last Modified
 
 ## Upcoming Games
 
-{% assign fixturesGroupedByYearMonth = fixtures | sort: 'datetime' | group_by_exp: 'item', 'item.datetime | truncate: 7, ""' %}
+{% assign upcomingFixturesGroupedByYearMonth = fixtures | upcomingFixtures | sort: 'datetime' | group_by_exp: 'item', 'item.datetime | truncate: 7, ""' %}
 
 <figure>
 	<table>
@@ -30,57 +30,37 @@ date: git Last Modified
 			</tr>
 		</thead>
 		<tbody>
-			{% for yearMonth in fixturesGroupedByYearMonth -%}
+			{% for yearMonth in upcomingFixturesGroupedByYearMonth -%}
 				<tr><td colspan="3"><b>{{ yearMonth.name | date: '%B %Y' }}</b></td></tr>
 				{% for fixture in yearMonth.items %}
-					{%- assign players = fixture.squad -%}
-					{%- assign squadSize = players | size -%}
-					<tr id="{{ fixture.datetime }}">
-						<td style="vertical-align: top;">
-							<a href="#{{ fixture.datetime }}">{{ fixture.datetime | date: "%a, %e%q %b %Y" }}</a>
-						</td>
-						<td style="vertical-align: top;">{{ fixture.datetime | date: "%l:%M%P" }}</td>
-						<td style="vertical-align: top;">
-							{%- if fixture.homeTeam != "" %}{{ fixture.homeTeam }} vs {% if fixture.awayTeam == '' -%}TBC{%- else -%}{{ fixture.awayTeam }}{%- endif -%}<br>{% endif %}
-							<a href="{{ fixture.mapLink }}" target="_blank">{{ fixture.venue | replace: ",", "<br>" }}</a>
-						</td>
-						<!-- <td>
-							{%- if squadSize > 0 %}
-								<details>
-									<summary>Players ({{ players | size }})</summary>
-									<ul>
-										{%- for player in players -%}
-											<li>{{ player.kit }} - {{ player.givenName }}, {{ player.familyName | first }}</li>
-										{% endfor %}
-									</ul>
-								</details>
-							{% endif %}
-						</td> -->
-					</tr>
+					{%- include 'fixture.html' -%}
 				{% endfor %}
 			{% endfor %}
 		</tbody>
 	</table>
 </figure>
 
-{% comment %}
-{%- assign today = 'now' | date: '%s' %}
-{%- assign pastGames = '' | split: '' %}
-
-{%- for fixture in fixtures %}
-	{%- assign date_timestamp = fixture.datetime | date: '%s' %}
-
-	{%- if date_timestamp < today %}
-		{% assign pastGames = pastGames | push: fixture %}
-	{%- endif %}
-{%- endfor %}
-
-{%- if pastGames.size > 0 -%}
 ## Past Games
-Date | Home vs Away Team
--- | --
-{% for fixture in pastGames -%}
-{{ fixture.datetime | date: "%a, %e%q %b %Y" }} | {{ fixture.homeTeam }} {{ fixture.homeScore }} vs {{ fixture.awayScore }} {{ fixture.awayTeam }}
-{% endfor %}
-{% endif %}
-{% endcomment %}
+
+{% assign pastFixturesGroupedByYearMonth = fixtures | pastFixtures | sort: 'datetime' | reverse  | group_by_exp: 'item', 'item.datetime | truncate: 7, ""' %}
+
+<figure>
+	<table>
+		<thead>
+			<tr>
+				<th>Date</th>
+				<th>Tipoff</th>
+				<th>Home vs Away</th>
+				<!-- <th>Squad</th> -->
+			</tr>
+		</thead>
+		<tbody>
+			{% for yearMonth in pastFixturesGroupedByYearMonth -%}
+				<tr><td colspan="3"><b>{{ yearMonth.name | date: '%B %Y' }}</b></td></tr>
+				{% for fixture in yearMonth.items %}
+					{%- include 'fixture.html' -%}
+				{% endfor %}
+			{% endfor %}
+		</tbody>
+	</table>
+</figure>
