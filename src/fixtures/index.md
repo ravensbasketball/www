@@ -15,7 +15,7 @@ date: git Last Modified
 	<iframe src="https://calendar.google.com/calendar/embed?src=ravensbasketballuk%40gmail.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </details>
 
-## Upcoming Games
+<h2 id="upcoming-games">Upcoming Games</h2>
 
 {% assign upcomingFixturesGroupedByYearMonth = fixtures | upcomingFixtures | sort: 'datetime' | group_by_exp: 'item', 'item.datetime | truncate: 7, ""' %}
 
@@ -40,7 +40,7 @@ date: git Last Modified
 	</table>
 </figure>
 
-## Past Games
+<h2 id="past-games">Past Games</h2>
 
 {% assign pastFixturesGroupedByYearMonth = fixtures | pastFixtures | sort: 'datetime' | reverse  | group_by_exp: 'item', 'item.datetime | truncate: 7, ""' %}
 
