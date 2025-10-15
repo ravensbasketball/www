@@ -4,7 +4,7 @@
 		"venue": "Aylesbury High School, Walton Road, Aylesbury, HP21 7SX",
 		"mapLink": "https://maps.app.goo.gl/BaT3DF9RnMhjn4pn9",
 		"homeTeam": "Aylesbury Dux Masters",
-		"awayTeam": "Ravens (to be rearranged)",
+		"awayTeam": "Ravens (forfeited)",
 		"homeScore": "",
 		"awayScore": "",
 		"squad": [],
@@ -29,7 +29,6 @@
 		"awayTeam": "Ravens (Cup)",
 		"homeScore": "66",
 		"awayScore": "34",
-		"scoresheet": "2025-10-10-Aylesbury-Dux-Masters-vs-Ravens-Results.pdf",
 		"squad": [],
 		"officials": []
 	},
@@ -39,8 +38,8 @@
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens",
 		"awayTeam": "Herts Heat",
-		"homeScore": "",
-		"awayScore": "",
+		"homeScore": "16",
+		"awayScore": "73",
 		"squad": [],
 		"officials": []
 	},

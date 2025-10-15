@@ -3,8 +3,12 @@
 <tr id="{{ fixture.datetime }}">
 	<td style="vertical-align: top;">
 		<a href="#{{ fixture.datetime }}">{{ fixture.datetime | date: "%a, %e%q %b %Y" }}</a>
-		{%- if fixture.scoresheet -%}
-			<p><a href="/assets/results/2025-10-10-Aylesbury-Dux-Masters-vs-Ravens-Results.pdf" target="_blank">Score sheet</a></p>
+		{%- if fixture.homeScore != '' -%}
+			{%- assign filePrefix = fixture.datetime | truncate: 10, "" -%}
+			<ul>
+				<li><a href="/assets/results/{{ fixture | scoreFilePrefix | slug }}-scoresheet.pdf" target="_blank">Scoresheet</a></li>
+				<li><a href="/assets/results/{{ fixture | scoreFilePrefix | slug }}-stats.pdf" target="_blank">Stats</a></li>
+			</ul>
 		{%- endif-%}
 	</td>
 	<td style="vertical-align: top;">{{ fixture.datetime | date: "%l:%M%P" }}</td>

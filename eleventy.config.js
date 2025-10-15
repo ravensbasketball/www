@@ -5,16 +5,26 @@ export default async function( eleventyConfig ) {
 	eleventyConfig.addPassthroughCopy( './src/assets/**' );
 	eleventyConfig.addPassthroughCopy( './src/.htaccess' );
 
-	eleventyConfig.addFilter( 'upcomingFixtures', function( records ) {
+	eleventyConfig.addFilter( 'upcomingFixtures', function( fixtures ) {
 		const today = DateTime.now().toISODate();
 
-		return records.filter( record => DateTime.fromISO( record.datetime ).toISODate() >= today );
+		return fixtures.filter( fixture => DateTime.fromISO( fixture.datetime ).toISODate() >= today );
 	} );
 
-	eleventyConfig.addFilter( 'pastFixtures', function( records ) {
+	eleventyConfig.addFilter( 'pastFixtures', function( fixtures ) {
 		const today = DateTime.now().toISODate();
 
-		return records.filter( record => DateTime.fromISO( record.datetime ).toISODate() < today );
+		return fixtures.filter( fixture => DateTime.fromISO( fixture.datetime ).toISODate() < today );
+	} );
+
+	eleventyConfig.addFilter( 'scoreFilePrefix', function( fixture ) {
+		let fixtureDate = fixture.datetime.split( 'T' )[ 0 ];
+		let homeTeam = fixture.homeTeam;
+		let awayTeam = fixture.awayTeam;
+
+		let scoreFilePrefix = `${fixtureDate} ${homeTeam} vs ${awayTeam}`;
+
+		return scoreFilePrefix;
 	} );
 };
 
