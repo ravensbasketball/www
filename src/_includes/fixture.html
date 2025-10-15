@@ -16,7 +16,7 @@
 	</td>
 	<td style="vertical-align: top;">{{ fixture.datetime | date: "%l:%M%P" }}</td>
 	<td style="vertical-align: top;">
-		{%- if fixture.homeTeam != "" %}{{ fixture.homeTeam }} {{ fixture.homeScore }} vs {{ fixture.awayScore }} {% if fixture.awayTeam == '' -%}TBC{%- else -%}{{ fixture.awayTeam }}{%- endif -%}<br>{% endif %}
+		{{ fixture.homeTeam }} {%- if fixture.homeScore == "" %} vs {% else %} ({{ fixture.homeScore }} - {{ fixture.awayScore }}) {% endif %}{{ fixture.awayTeam }}<br>
 		<a href="{{ fixture.mapLink }}" target="_blank">{{ fixture.venue | replace: ",", "<br>" }}</a>
 	</td>
 	<!-- <td>
