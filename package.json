@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf ./_site && npm run build:eleventy",
-    "build:eleventy": "npx @11ty/eleventy --input ./src/ --output ./public/",
+    "build": "npm run eleventy",
+    "eleventy": "npx @11ty/eleventy --input ./src/ --output ./_site/",
     "dev": "rm -rf ./_site && npm run dev:eleventy",
     "dev:eleventy": "npx @11ty/eleventy --input ./src/ --serve"
   },
