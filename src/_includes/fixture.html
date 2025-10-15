@@ -8,6 +8,9 @@
 			<ul>
 				<li><a href="/assets/results/{{ fixture | scoreFilePrefix | slug }}-scoresheet.pdf" target="_blank">Scoresheet</a></li>
 				<li><a href="/assets/results/{{ fixture | scoreFilePrefix | slug }}-stats.pdf" target="_blank">Stats</a></li>
+				{%- if fixture.videoURL -%}
+					<li><a href="{{ fixture.videoURL }}" target="_blank">Video</a></li>
+				{%- endif -%}
 			</ul>
 		{%- endif-%}
 	</td>
