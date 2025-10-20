@@ -1,8 +1,8 @@
 {%- assign players = fixture.squad -%}
 {%- assign squadSize = players | size -%}
-<tr id="{{ fixture.datetime }}">
+<tr id="{{ fixture.datetime | date: '%Y-%m-%d' }}">
 	<td style="vertical-align: top;">
-		<a href="#{{ fixture.datetime }}">{{ fixture.datetime | date: "%a, %e%q %b %Y" }}</a>
+		<a href="#{{ fixture.datetime | date: '%Y-%m-%d' }}">{{ fixture.datetime | date: "%a, %e%q %b %Y" }}</a>
 		{%- if fixture.homeScore != '' -%}
 			{%- assign filePrefix = fixture.datetime | truncate: 10, "" -%}
 			<ul>
