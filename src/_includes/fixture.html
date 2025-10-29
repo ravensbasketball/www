@@ -1,5 +1,7 @@
 {%- assign players = fixture.squad -%}
-{%- assign squadSize = players | size -%}
+{%- assign squad = players | squad -%}
+{%- assign squadSize = squad | size -%}
+
 <tr id="{{ fixture.datetime | date: '%Y-%m-%d' }}">
 	<td style="vertical-align: top;">
 		<a href="#{{ fixture.datetime | date: '%Y-%m-%d' }}">{{ fixture.datetime | date: "%a, %e%q %b %Y" }}</a>
@@ -18,17 +20,17 @@
 	<td style="vertical-align: top;">
 		{{ fixture.homeTeam }} {%- if fixture.homeScore == "" %} vs {% else %} ({{ fixture.homeScore }} - {{ fixture.awayScore }}) {% endif %}{{ fixture.awayTeam }}<br>
 		<a href="{{ fixture.mapLink }}" target="_blank">{{ fixture.venue | replace: ",", "<br>" }}</a>
-	</td>
-	<!-- <td>
 		{%- if squadSize > 0 %}
-			<details>
-				<summary>Players ({{ players | size }})</summary>
-				<ul>
-					{%- for player in players -%}
-						<li>{{ player.kit }} - {{ player.givenName }}, {{ player.familyName | first }}</li>
-					{% endfor %}
-				</ul>
-			</details>
+			<p>
+				<details>
+					<summary>Squad ({{ squadSize }})</summary>
+					<ul>
+						{%- for player in squad -%}
+							<li>{{ player.givenName }}, {{ player.familyName | first }} ({{ player.kit }})</li>
+						{% endfor %}
+					</ul>
+				</details>
+			</p>
 		{% endif %}
-	</td> -->
+	</td>
 </tr>

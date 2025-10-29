@@ -1,80 +1,86 @@
 [
 	{
-		"kit": "4",
-		"givenName": "David",
-		"familyName": "Shore",
-		"licence": "TBC"
-	},
-	{
-		"kit": "5",
-		"givenName": "Dominic",
-		"familyName": "Garcia",
-		"licence": "TBC"
-	},
-	{
-		"kit": "6",
-		"givenName": "Richard",
-		"familyName": "Herbert",
-		"licence": "TBC"
-	},
-	{
-		"kit": "7",
-		"givenName": "Otto",
-		"familyName": "Opiyo",
-		"licence": "TBC"
-	},
-	{
 		"kit": "11",
 		"givenName": "Cameron",
 		"familyName": "Walters",
-		"licence": "TBC"
-	},
-	{
-		"kit": "14",
-		"givenName": "Simon",
-		"familyName": "Jackson-Turner",
-		"licence": "TBC"
-	},
-	{
-		"kit": "17",
-		"givenName": "Dan",
-		"familyName": "Large",
-		"licence": "TBC"
+		"available": 0
 	},
 	{
 		"kit": "22",
 		"givenName": "Damir",
 		"familyName": "Davis",
-		"licence": "TBC"
-	},
-	{
-		"kit": "24",
-		"givenName": "Gaetano",
-		"familyName": "Lo Nigro",
-		"licence": "TBC"
-	},
-	{
-		"kit": "28",
-		"givenName": "Greg",
-		"familyName": "Seymour",
-		"licence": "TBC"
-	},
-	{
-		"kit": "33",
-		"givenName": "Neil",
-		"familyName": "McCutcheon",
-		"licence": "TBC"
+		"available": 0
 	},
 	{
 		"kit": "49",
 		"givenName": "Dan",
 		"familyName": "Bernard",
-		"licence": "TBC"
+		"available": 0
+	},
+	{
+		"kit": "17",
+		"givenName": "Dan",
+		"familyName": "Large",
+		"available": 0
+	},
+	{
+		"kit": "4",
+		"givenName": "David",
+		"familyName": "Shore",
+		"available": 0
+	},
+	{
+		"kit": "5",
+		"givenName": "Dominic",
+		"familyName": "Garcia",
+		"available": 0
+	},
+	{
+		"kit": "24",
+		"givenName": "Gaetano",
+		"familyName": "Lo Nigro",
+		"available": 0
+	},
+	{
+		"kit": "28",
+		"givenName": "Greg",
+		"familyName": "Seymour",
+		"available": 0
+	},
+	{
+		"kit": "0",
+		"givenName": "Keith",
+		"familyName": "Bragg",
+		"available": 0
 	},
 	{
 		"kit": "55",
 		"givenName": "Lester",
 		"familyName": "Confessor",
-		"licence": "TBC"
+		"available": 0
+	},
+	{
+		"kit": "33",
+		"givenName": "Neil",
+		"familyName": "McCutcheon",
+		"available": 0
+	},
+	{
+		"kit": "7",
+		"givenName": "Otto",
+		"familyName": "Opiyo",
+		"available": 0
+	},
+	{
+		"kit": "6",
+		"givenName": "Richard",
+		"familyName": "Herbert",
+		"available": 0
+	},
+	{
+		"kit": "14",
+		"givenName": "Simon",
+		"familyName": "Jackson-Turner",
+		"available": 0
 	}
 ]

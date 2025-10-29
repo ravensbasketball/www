@@ -6,8 +6,8 @@
   "scripts": {
     "build": "npm run eleventy",
     "eleventy": "npx @11ty/eleventy --input ./src/ --output ./_site/",
-    "dev": "rm -rf ./_site && npm run dev:eleventy",
-    "dev:eleventy": "npx @11ty/eleventy --input ./src/ --serve"
+    "start": "rm -rf ./_site && npm run start:eleventy",
+    "start:eleventy": "npx @11ty/eleventy --input ./src/ --serve"
   },
   "keywords": [],
   "author": "",
