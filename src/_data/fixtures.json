@@ -267,7 +267,7 @@
 				"kit": "22",
 				"givenName": "Damir",
 				"familyName": "Davis",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "49",
@@ -434,7 +434,7 @@
 		"officials": []
 	},
 	{
-		"datetime": "2026-01-19T20:15",
+		"datetime": "2026-03-02T20:15",
 		"venue": "Onslow St Audrey's School, Old Rectory Drive, Hatfield, AL10 8AB",
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens",
