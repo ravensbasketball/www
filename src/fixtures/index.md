@@ -17,6 +17,8 @@ date: git Last Modified
 
 <h2 id="upcoming-games">Upcoming Games</h2>
 
+#### [Past Games](./#past-games)
+
 {% assign upcomingFixturesGroupedByYearMonth = fixtures | upcomingFixtures | sort: 'datetime' | group_by_exp: 'item', 'item.datetime | truncate: 7, ""' %}
 
 <figure>
