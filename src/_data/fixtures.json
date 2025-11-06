@@ -231,7 +231,7 @@
 				"kit": "7",
 				"givenName": "Otto",
 				"familyName": "Opiyo",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "6",
@@ -249,7 +249,7 @@
 		"officials": []
 	},
 	{
-		"datetime": "2025-11-09T18:00",
+		"datetime": "2025-11-09T18:15",
 		"venue": "Aylesbury High School, Walton Road, Aylesbury, HP21 7SX",
 		"mapLink": "https://maps.app.goo.gl/BaT3DF9RnMhjn4pn9",
 		"homeTeam": "Aylesbury Dux Rebels",
@@ -315,7 +315,7 @@
 				"kit": "55",
 				"givenName": "Lester",
 				"familyName": "Confessor",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "33",
