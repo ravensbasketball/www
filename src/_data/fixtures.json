@@ -171,7 +171,7 @@
 				"kit": "22",
 				"givenName": "Damir",
 				"familyName": "Davis",
-				"available": 1
+				"available": 0
 			},
 			{
 				"kit": "49",
@@ -564,7 +564,7 @@
 		"venue": "Astley Cooper School, St Agnells Lane, Hemel Hempstead, HP2 7HL",
 		"mapLink": "https://maps.app.goo.gl/ZaZ11Jn2QYC2sHt68",
 		"homeTeam": "Hemel Wolves 2",
-		"awayTeam": "Ravens (black)",
+		"awayTeam": "Ravens (white)",
 		"homeScore": "",
 		"awayScore": "",
 		"squad": [],
@@ -607,7 +607,7 @@
 		"datetime": "2026-03-02T20:15",
 		"venue": "Onslow St Audrey's School, Old Rectory Drive, Hatfield, AL10 8AB",
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
-		"homeTeam": "Ravens (white)",
+		"homeTeam": "Ravens (black)",
 		"awayTeam": "Hemel Wolves 2",
 		"homeScore": "",
 		"awayScore": "",
