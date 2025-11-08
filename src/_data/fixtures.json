@@ -157,9 +157,9 @@
 		"venue": "Longdean Sports Centre, Hill Common, Hemel Hempstead, HP3 8JH",
 		"mapLink": "https://maps.app.goo.gl/uv9v4RL8yayjmwA58",
 		"homeTeam": "Watford Hongkongers",
-		"awayTeam": "Ravens (Black)",
-		"homeScore": "",
-		"awayScore": "",
+		"awayTeam": "Ravens",
+		"homeScore": "59",
+		"awayScore": "52",
 		"squad": [
 			{
 				"kit": "11",
@@ -189,7 +189,7 @@
 				"kit": "4",
 				"givenName": "David",
 				"familyName": "Shore",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "5",
