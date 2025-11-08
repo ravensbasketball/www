@@ -18,6 +18,7 @@
 		"awayTeam": "Ravens",
 		"homeScore": "51",
 		"awayScore": "27",
+		"scoresheet": 1,
 		"squad": [
 			{
 				"kit": "0",
@@ -114,6 +115,8 @@
 		"awayTeam": "Ravens (Cup)",
 		"homeScore": "66",
 		"awayScore": "34",
+		"scoresheet": 1,
+		"stats": 1,
 		"videoURL": "https://youtu.be/_ij15_BCP7M",
 		"squad": [],
 		"officials": []
@@ -126,6 +129,8 @@
 		"awayTeam": "Herts Heat",
 		"homeScore": "16",
 		"awayScore": "73",
+		"scoresheet": 1,
+		"stats": 1,
 		"videoURL": "https://app.veo.co/matches/20251013-recording-bafa-a3c7b9f2/",
 		"squad": [],
 		"officials": []
@@ -149,6 +154,8 @@
 		"awayTeam": "Ravens",
 		"homeScore": "65",
 		"awayScore": "28",
+		"scoresheet": 1,
+		"stats": 1,
 		"squad": [],
 		"officials": []
 	},
@@ -160,6 +167,7 @@
 		"awayTeam": "Ravens",
 		"homeScore": "59",
 		"awayScore": "52",
+		"scoresheet": 1,
 		"squad": [
 			{
 				"kit": "11",
