@@ -464,7 +464,7 @@
 				"kit": "11",
 				"givenName": "Cameron",
 				"familyName": "Walters",
-				"available": 1
+				"available": 0
 			},
 			{
 				"kit": "22",
@@ -482,7 +482,7 @@
 				"kit": "17",
 				"givenName": "Dan",
 				"familyName": "Large",
-				"available": 1
+				"available": 0
 			},
 			{
 				"kit": "4",
@@ -500,7 +500,7 @@
 				"kit": "24",
 				"givenName": "Gaetano",
 				"familyName": "Lo Nigro",
-				"available": 1
+				"available": 0
 			},
 			{
 				"kit": "28",
@@ -512,13 +512,13 @@
 				"kit": "0",
 				"givenName": "Keith",
 				"familyName": "Bragg",
-				"available": 1
+				"available": 0
 			},
 			{
 				"kit": "55",
 				"givenName": "Lester",
 				"familyName": "Confessor",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "33",
