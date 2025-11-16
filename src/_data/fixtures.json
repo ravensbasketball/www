@@ -464,7 +464,7 @@
 				"kit": "11",
 				"givenName": "Cameron",
 				"familyName": "Walters",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "22",
@@ -500,7 +500,7 @@
 				"kit": "24",
 				"givenName": "Gaetano",
 				"familyName": "Lo Nigro",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "28",
@@ -512,7 +512,7 @@
 				"kit": "0",
 				"givenName": "Keith",
 				"familyName": "Bragg",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "55",
