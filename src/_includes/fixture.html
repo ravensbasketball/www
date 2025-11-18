@@ -9,10 +9,10 @@
 			{%- assign filePrefix = fixture.datetime | truncate: 10, "" -%}
 			<ul>
 				{%- if fixture.scoresheet -%}
-					<li><a href="/assets/results/{{ fixture | scoreFilePrefix | slug }}-scoresheet.pdf" target="_blank">Scoresheet</a></li>
+					<li><a href="/assets/results/{{ fixture.datetime | date: '%Y-%m-%d' }}-scoresheet.pdf" target="_blank">Scoresheet</a></li>
 				{%- endif -%}
 				{%- if fixture.stats -%}
-					<li><a href="/assets/results/{{ fixture | scoreFilePrefix | slug }}-stats.pdf" target="_blank">Stats</a></li>
+					<li><a href="/assets/results/{{ fixture.datetime | date: '%Y-%m-%d' }}-stats.pdf" target="_blank">Stats</a></li>
 				{%- endif -%}
 				{%- if fixture.videoURL -%}
 					<li><a href="{{ fixture.videoURL }}" target="_blank">Video</a></li>

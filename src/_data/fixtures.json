@@ -361,8 +361,10 @@
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens (white)",
 		"awayTeam": "North Herts Knights 2",
-		"homeScore": "",
-		"awayScore": "",
+		"homeScore": "31",
+		"awayScore": "62",
+		"scoresheet": 1,
+		"stats": 1,
 		"squad": [
 			{
 				"kit": "11",
@@ -374,7 +376,7 @@
 				"kit": "22",
 				"givenName": "Damir",
 				"familyName": "Davis",
-				"available": 1
+				"available": 0
 			},
 			{
 				"kit": "49",
@@ -588,7 +590,92 @@
 		"awayTeam": "Aylesbury Dux Masters",
 		"homeScore": "",
 		"awayScore": "",
-		"squad": [],
+		"squad": [
+			{
+				"kit": "11",
+				"givenName": "Cameron",
+				"familyName": "Walters",
+				"available": 0
+			},
+			{
+				"kit": "22",
+				"givenName": "Damir",
+				"familyName": "Davis",
+				"available": 0
+			},
+			{
+				"kit": "49",
+				"givenName": "Dan",
+				"familyName": "Bernard",
+				"available": 1
+			},
+			{
+				"kit": "17",
+				"givenName": "Dan",
+				"familyName": "Large",
+				"available": 0
+			},
+			{
+				"kit": "4",
+				"givenName": "David",
+				"familyName": "Shore",
+				"available": 1
+			},
+			{
+				"kit": "5",
+				"givenName": "Dominic",
+				"familyName": "Garcia",
+				"available": 1
+			},
+			{
+				"kit": "24",
+				"givenName": "Gaetano",
+				"familyName": "Lo Nigro",
+				"available": 0
+			},
+			{
+				"kit": "28",
+				"givenName": "Greg",
+				"familyName": "Seymour",
+				"available": 0
+			},
+			{
+				"kit": "0",
+				"givenName": "Keith",
+				"familyName": "Bragg",
+				"available": 0
+			},
+			{
+				"kit": "55",
+				"givenName": "Lester",
+				"familyName": "Confessor",
+				"available": 0
+			},
+			{
+				"kit": "33",
+				"givenName": "Neil",
+				"familyName": "McCutcheon",
+				"available": 1
+			},
+			{
+				"kit": "7",
+				"givenName": "Otto",
+				"familyName": "Opiyo",
+				"available": 1
+			},
+			{
+				"kit": "6",
+				"givenName": "Richard",
+				"familyName": "Herbert",
+				"available": 0
+			},
+			{
+				"kit": "14",
+				"givenName": "Simon",
+				"familyName": "Jackson-Turner",
+				"available": 1
+			}
+		],
 		"officials": []
 	},
 	{
