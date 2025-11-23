@@ -466,7 +466,7 @@
 				"kit": "11",
 				"givenName": "Cameron",
 				"familyName": "Walters",
-				"available": 1
+				"available": 0
 			},
 			{
 				"kit": "22",
@@ -526,7 +526,7 @@
 				"kit": "33",
 				"givenName": "Neil",
 				"familyName": "McCutcheon",
-				"available": 1
+				"available": 0
 			},
 			{
 				"kit": "7",
