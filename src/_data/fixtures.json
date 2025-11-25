@@ -459,8 +459,10 @@
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens (white)",
 		"awayTeam": "Birchwood Braves",
-		"homeScore": "",
-		"awayScore": "",
+		"homeScore": "20",
+		"awayScore": "57",
+		"scoresheet": 1,
+		"stats": 1,
 		"squad": [
 			{
 				"kit": "11",
