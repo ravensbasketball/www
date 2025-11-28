@@ -576,7 +576,7 @@
 				"kit": "49",
 				"givenName": "Dan",
 				"familyName": "Bernard",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "17",
@@ -588,7 +588,7 @@
 				"kit": "4",
 				"givenName": "David",
 				"familyName": "Shore",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "5",
@@ -612,7 +612,7 @@
 				"kit": "0",
 				"givenName": "Keith",
 				"familyName": "Bragg",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "55",
@@ -624,7 +624,7 @@
 				"kit": "33",
 				"givenName": "Neil",
 				"familyName": "McCutcheon",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "7",
@@ -642,7 +642,7 @@
 				"kit": "14",
 				"givenName": "Simon",
 				"familyName": "Jackson-Turner",
-				"available": 0
+				"available": 1
 			}
 		],
 		"officials": []
