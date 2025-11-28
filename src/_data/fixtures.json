@@ -359,7 +359,7 @@
 		"datetime": "2025-11-17T20:15",
 		"venue": "Onslow St Audrey's School, Old Rectory Drive, Hatfield, AL10 8AB",
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
-		"homeTeam": "Ravens (white)",
+		"homeTeam": "Ravens (WHITE)",
 		"awayTeam": "North Herts Knights 2",
 		"homeScore": "31",
 		"awayScore": "62",
@@ -457,7 +457,7 @@
 		"datetime": "2025-11-24T20:15",
 		"venue": "Onslow St Audrey's School, Old Rectory Drive, Hatfield, AL10 8AB",
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
-		"homeTeam": "Ravens (white)",
+		"homeTeam": "Ravens (WHITE)",
 		"awayTeam": "Birchwood Braves",
 		"homeScore": "20",
 		"awayScore": "57",
@@ -474,7 +474,7 @@
 				"kit": "22",
 				"givenName": "Damir",
 				"familyName": "Davis",
-				"available": 1
+				"available": 0
 			},
 			{
 				"kit": "49",
@@ -555,11 +555,96 @@
 		"datetime": "2025-12-08T20:15",
 		"venue": "Onslow St Audrey's School, Old Rectory Drive, Hatfield, AL10 8AB",
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
-		"homeTeam": "Ravens (white)",
-		"awayTeam": "Cranfield",
+		"homeTeam": "Ravens (WHITE)",
+		"awayTeam": "Cranfield (blue)",
 		"homeScore": "",
 		"awayScore": "",
-		"squad": [],
+		"squad": [
+			{
+				"kit": "11",
+				"givenName": "Cameron",
+				"familyName": "Walters",
+				"available": 0
+			},
+			{
+				"kit": "22",
+				"givenName": "Damir",
+				"familyName": "Davis",
+				"available": 0
+			},
+			{
+				"kit": "49",
+				"givenName": "Dan",
+				"familyName": "Bernard",
+				"available": 0
+			},
+			{
+				"kit": "17",
+				"givenName": "Dan",
+				"familyName": "Large",
+				"available": 0
+			},
+			{
+				"kit": "4",
+				"givenName": "David",
+				"familyName": "Shore",
+				"available": 0
+			},
+			{
+				"kit": "5",
+				"givenName": "Dominic",
+				"familyName": "Garcia",
+				"available": 0
+			},
+			{
+				"kit": "24",
+				"givenName": "Gaetano",
+				"familyName": "Lo Nigro",
+				"available": 0
+			},
+			{
+				"kit": "28",
+				"givenName": "Greg",
+				"familyName": "Seymour",
+				"available": 0
+			},
+			{
+				"kit": "0",
+				"givenName": "Keith",
+				"familyName": "Bragg",
+				"available": 0
+			},
+			{
+				"kit": "55",
+				"givenName": "Lester",
+				"familyName": "Confessor",
+				"available": 0
+			},
+			{
+				"kit": "33",
+				"givenName": "Neil",
+				"familyName": "McCutcheon",
+				"available": 0
+			},
+			{
+				"kit": "7",
+				"givenName": "Otto",
+				"familyName": "Opiyo",
+				"available": 0
+			},
+			{
+				"kit": "6",
+				"givenName": "Richard",
+				"familyName": "Herbert",
+				"available": 0
+			},
+			{
+				"kit": "14",
+				"givenName": "Simon",
+				"familyName": "Jackson-Turner",
+				"available": 0
+			}
+		],
 		"officials": []
 	},
 	{
@@ -578,7 +663,7 @@
 		"venue": "Astley Cooper School, St Agnells Lane, Hemel Hempstead, HP2 7HL",
 		"mapLink": "https://maps.app.goo.gl/ZaZ11Jn2QYC2sHt68",
 		"homeTeam": "Hemel Wolves 2",
-		"awayTeam": "Ravens (white)",
+		"awayTeam": "Ravens (WHITE)",
 		"homeScore": "",
 		"awayScore": "",
 		"squad": [],
@@ -588,8 +673,8 @@
 		"datetime": "2025-12-01T20:15",
 		"venue": "Onslow St Audrey's School, Old Rectory Drive, Hatfield, AL10 8AB",
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
-		"homeTeam": "Ravens (black)",
-		"awayTeam": "Aylesbury Dux Masters",
+		"homeTeam": "Ravens (BLACK)",
+		"awayTeam": "Aylesbury Dux Masters (WHITE)",
 		"homeScore": "",
 		"awayScore": "",
 		"squad": [
@@ -645,7 +730,7 @@
 				"kit": "0",
 				"givenName": "Keith",
 				"familyName": "Bragg",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "55",
@@ -684,7 +769,7 @@
 		"datetime": "2026-02-09T20:15",
 		"venue": "Onslow St Audrey's School, Old Rectory Drive, Hatfield, AL10 8AB",
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
-		"homeTeam": "Ravens (white)",
+		"homeTeam": "Ravens (WHITE)",
 		"awayTeam": "West Herts Warriors",
 		"homeScore": "",
 		"awayScore": "",
@@ -696,7 +781,7 @@
 		"venue": "Stevenage Arts & Leisure Centre, Lytton Way, Stevenage, SG1 1LZ",
 		"mapLink": "https://maps.app.goo.gl/LVXT8SF7nTUomGLWA",
 		"homeTeam": "Herts Heat",
-		"awayTeam": "Ravens (white)",
+		"awayTeam": "Ravens (WHITE)",
 		"homeScore": "",
 		"awayScore": "",
 		"squad": [],
@@ -706,7 +791,7 @@
 		"datetime": "2026-03-02T20:15",
 		"venue": "Onslow St Audrey's School, Old Rectory Drive, Hatfield, AL10 8AB",
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
-		"homeTeam": "Ravens (black)",
+		"homeTeam": "Ravens (BLACK)",
 		"awayTeam": "Hemel Wolves 2",
 		"homeScore": "",
 		"awayScore": "",
@@ -717,7 +802,7 @@
 		"datetime": "2026-02-02T20:15",
 		"venue": "Onslow St Audrey's School, Old Rectory Drive, Hatfield, AL10 8AB",
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
-		"homeTeam": "Ravens (white)",
+		"homeTeam": "Ravens (WHITE)",
 		"awayTeam": "Oaklands Vets",
 		"homeScore": "",
 		"awayScore": "",
@@ -728,7 +813,7 @@
 		"datetime": "2026-02-16T20:15",
 		"venue": "Onslow St Audrey's School, Old Rectory Drive, Hatfield, AL10 8AB",
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
-		"homeTeam": "Ravens (white)",
+		"homeTeam": "Ravens (WHITE)",
 		"awayTeam": "Hatfield Magic",
 		"homeScore": "",
 		"awayScore": "",
@@ -740,7 +825,7 @@
 		"venue": "Oaklands College Sports Zone, Hatfield Rd, St Albans, AL4 OJA",
 		"mapLink": "https://maps.app.goo.gl/Cchcr1TVd2KjAcCYA",
 		"homeTeam": "Oaklands Vets",
-		"awayTeam": "Ravens (white)",
+		"awayTeam": "Ravens (WHITE)",
 		"homeScore": "",
 		"awayScore": "",
 		"squad": [],
@@ -750,7 +835,7 @@
 		"datetime": "2026-03-09T20:15",
 		"venue": "Onslow St Audrey's School, Old Rectory Drive, Hatfield, AL10 8AB",
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
-		"homeTeam": "Ravens (white)",
+		"homeTeam": "Ravens (WHITE)",
 		"awayTeam": "Enfield Mercenaries",
 		"homeScore": "",
 		"awayScore": "",
@@ -784,7 +869,7 @@
 		"venue": "Birchwood Leisure Centre, Hatfield, AL10 0AN",
 		"mapLink": "https://maps.app.goo.gl/u7XcxPe3zHjFbjtK9",
 		"homeTeam": "Hatfield Magic",
-		"awayTeam": "Ravens (white)",
+		"awayTeam": "Ravens (WHITE)",
 		"homeScore": "",
 		"awayScore": "",
 		"squad": [],
@@ -795,7 +880,7 @@
 		"venue": "9 Kinetic Crescent, Mollison Avenue, Enfield, EN3 7XH",
 		"mapLink": "https://maps.app.goo.gl/e1bWayEsgjanMU8M7",
 		"homeTeam": "Enfield Mercenaries",
-		"awayTeam": "Ravens (white)",
+		"awayTeam": "Ravens (WHITE)",
 		"homeScore": "",
 		"awayScore": "",
 		"squad": [],
