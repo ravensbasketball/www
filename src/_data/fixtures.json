@@ -700,7 +700,7 @@
 				"kit": "17",
 				"givenName": "Dan",
 				"familyName": "Large",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "4",
@@ -760,7 +760,7 @@
 				"kit": "14",
 				"givenName": "Simon",
 				"familyName": "Jackson-Turner",
-				"available": 1
+				"available": 0
 			}
 		],
 		"officials": []
