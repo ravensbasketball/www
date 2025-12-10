@@ -630,13 +630,13 @@
 				"kit": "7",
 				"givenName": "Otto",
 				"familyName": "Opiyo",
-				"available": 1
+				"available": 0
 			},
 			{
 				"kit": "6",
 				"givenName": "Richard",
 				"familyName": "Herbert",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "14",
