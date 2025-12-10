@@ -557,8 +557,10 @@
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens (WHITE)",
 		"awayTeam": "Cranfield (BLUE)",
-		"homeScore": "",
-		"awayScore": "",
+		"homeScore": "25",
+		"awayScore": "122",
+		"scoresheet": 1,
+		"stats": 1,
 		"squad": [
 			{
 				"kit": "11",
@@ -675,8 +677,10 @@
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens (BLACK)",
 		"awayTeam": "Aylesbury Dux Masters (WHITE)",
-		"homeScore": "",
-		"awayScore": "",
+		"homeScore": "17",
+		"awayScore": "63",
+		"scoresheet": 1,
+		"stats": 1,
 		"squad": [
 			{
 				"kit": "11",
