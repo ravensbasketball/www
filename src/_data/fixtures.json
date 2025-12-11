@@ -653,22 +653,196 @@
 		"datetime": "2025-12-16T20:15",
 		"venue": "Chancellor's Secondary School, Pine Grove, Brookmans Park, Hatfield AL9 7BN",
 		"mapLink": "https://maps.app.goo.gl/gsmAHD5P9W1Vwsm26",
-		"homeTeam": "Ravens",
-		"awayTeam": "Watford Hongkongers",
+		"homeTeam": "Ravens (BLACK)",
+		"awayTeam": "Watford Hongkongers (YELLOW)",
 		"homeScore": "",
 		"awayScore": "",
-		"squad": [],
+		"scoresheet": 0,
+		"stats": 0,
+		"squad": [
+			{
+				"kit": "11",
+				"givenName": "Cameron",
+				"familyName": "Walters",
+				"available": 0
+			},
+			{
+				"kit": "22",
+				"givenName": "Damir",
+				"familyName": "Davis",
+				"available": 1
+			},
+			{
+				"kit": "49",
+				"givenName": "Dan",
+				"familyName": "Bernard",
+				"available": 1
+			},
+			{
+				"kit": "17",
+				"givenName": "Dan",
+				"familyName": "Large",
+				"available": 1
+			},
+			{
+				"kit": "4",
+				"givenName": "David",
+				"familyName": "Shore",
+				"available": 1
+			},
+			{
+				"kit": "5",
+				"givenName": "Dominic",
+				"familyName": "Garcia",
+				"available": 0
+			},
+			{
+				"kit": "24",
+				"givenName": "Gaetano",
+				"familyName": "Lo Nigro",
+				"available": 0
+			},
+			{
+				"kit": "28",
+				"givenName": "Greg",
+				"familyName": "Seymour",
+				"available": 0
+			},
+			{
+				"kit": "0",
+				"givenName": "Keith",
+				"familyName": "Bragg",
+				"available": 1
+			},
+			{
+				"kit": "55",
+				"givenName": "Lester",
+				"familyName": "Confessor",
+				"available": 0
+			},
+			{
+				"kit": "33",
+				"givenName": "Neil",
+				"familyName": "McCutcheon",
+				"available": 0
+			},
+			{
+				"kit": "7",
+				"givenName": "Otto",
+				"familyName": "Opiyo",
+				"available": 0
+			},
+			{
+				"kit": "6",
+				"givenName": "Richard",
+				"familyName": "Herbert",
+				"available": 1
+			},
+			{
+				"kit": "14",
+				"givenName": "Simon",
+				"familyName": "Jackson-Turner",
+				"available": 1
+			}
+		],
 		"officials": []
 	},
 	{
 		"datetime": "2025-12-19T20:15",
 		"venue": "Astley Cooper School, St Agnells Lane, Hemel Hempstead, HP2 7HL",
 		"mapLink": "https://maps.app.goo.gl/ZaZ11Jn2QYC2sHt68",
-		"homeTeam": "Hemel Wolves 2",
-		"awayTeam": "Ravens (WHITE)",
+		"homeTeam": "Hemel Wolves 2 (WHITE)",
+		"awayTeam": "Ravens (BLACK)",
 		"homeScore": "",
 		"awayScore": "",
-		"squad": [],
+		"scoresheet": 0,
+		"stats": 0,
+		"squad": [
+		{
+			"kit": "11",
+			"givenName": "Cameron",
+			"familyName": "Walters",
+			"available": 0
+		},
+		{
+			"kit": "22",
+			"givenName": "Damir",
+			"familyName": "Davis",
+			"available": 0
+		},
+		{
+			"kit": "49",
+			"givenName": "Dan",
+			"familyName": "Bernard",
+			"available": 0
+		},
+		{
+			"kit": "17",
+			"givenName": "Dan",
+			"familyName": "Large",
+			"available": 0
+		},
+		{
+			"kit": "4",
+			"givenName": "David",
+			"familyName": "Shore",
+			"available": 1
+		},
+		{
+			"kit": "5",
+			"givenName": "Dominic",
+			"familyName": "Garcia",
+			"available": 0
+		},
+		{
+			"kit": "24",
+			"givenName": "Gaetano",
+			"familyName": "Lo Nigro",
+			"available": 0
+		},
+		{
+			"kit": "28",
+			"givenName": "Greg",
+			"familyName": "Seymour",
+			"available": 0
+		},
+		{
+			"kit": "0",
+			"givenName": "Keith",
+			"familyName": "Bragg",
+			"available": 0
+		},
+		{
+			"kit": "55",
+			"givenName": "Lester",
+			"familyName": "Confessor",
+			"available": 1
+		},
+		{
+			"kit": "33",
+			"givenName": "Neil",
+			"familyName": "McCutcheon",
+			"available": 0
+		},
+		{
+			"kit": "7",
+			"givenName": "Otto",
+			"familyName": "Opiyo",
+			"available": 0
+		},
+		{
+			"kit": "6",
+			"givenName": "Richard",
+			"familyName": "Herbert",
+			"available": 1
+		},
+		{
+			"kit": "14",
+			"givenName": "Simon",
+			"familyName": "Jackson-Turner",
+			"available": 0
+		}
+	],
 		"officials": []
 	},
 	{
@@ -777,6 +951,8 @@
 		"awayTeam": "West Herts Warriors",
 		"homeScore": "",
 		"awayScore": "",
+		"scoresheet": 0,
+		"stats": 0,
 		"squad": [],
 		"officials": []
 	},
@@ -788,6 +964,8 @@
 		"awayTeam": "Ravens (WHITE)",
 		"homeScore": "",
 		"awayScore": "",
+		"scoresheet": 0,
+		"stats": 0,
 		"squad": [],
 		"officials": []
 	},
@@ -799,6 +977,8 @@
 		"awayTeam": "Hemel Wolves 2",
 		"homeScore": "",
 		"awayScore": "",
+		"scoresheet": 0,
+		"stats": 0,
 		"squad": [],
 		"officials": []
 	},
@@ -810,6 +990,8 @@
 		"awayTeam": "Oaklands Vets",
 		"homeScore": "",
 		"awayScore": "",
+		"scoresheet": 0,
+		"stats": 0,
 		"squad": [],
 		"officials": []
 	},
@@ -821,6 +1003,8 @@
 		"awayTeam": "Hatfield Magic",
 		"homeScore": "",
 		"awayScore": "",
+		"scoresheet": 0,
+		"stats": 0,
 		"squad": [],
 		"officials": []
 	},
@@ -832,6 +1016,8 @@
 		"awayTeam": "Ravens (WHITE)",
 		"homeScore": "",
 		"awayScore": "",
+		"scoresheet": 0,
+		"stats": 0,
 		"squad": [],
 		"officials": []
 	},
@@ -843,6 +1029,8 @@
 		"awayTeam": "Enfield Mercenaries",
 		"homeScore": "",
 		"awayScore": "",
+		"scoresheet": 0,
+		"stats": 0,
 		"squad": [],
 		"officials": []
 	},
@@ -854,6 +1042,8 @@
 		"awayTeam": "Ravens",
 		"homeScore": "",
 		"awayScore": "",
+		"scoresheet": 0,
+		"stats": 0,
 		"squad": [],
 		"officials": []
 	},
@@ -865,6 +1055,8 @@
 		"awayTeam": "Aylesbury Dux Rebels",
 		"homeScore": "",
 		"awayScore": "",
+		"scoresheet": 0,
+		"stats": 0,
 		"squad": [],
 		"officials": []
 	},
@@ -876,6 +1068,8 @@
 		"awayTeam": "Ravens (WHITE)",
 		"homeScore": "",
 		"awayScore": "",
+		"scoresheet": 0,
+		"stats": 0,
 		"squad": [],
 		"officials": []
 	},
@@ -887,6 +1081,8 @@
 		"awayTeam": "Ravens (WHITE)",
 		"homeScore": "",
 		"awayScore": "",
+		"scoresheet": 0,
+		"stats": 0,
 		"squad": [],
 		"officials": []
 	}
