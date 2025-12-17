@@ -654,11 +654,11 @@
 		"venue": "Chancellor's Secondary School, Pine Grove, Brookmans Park, Hatfield AL9 7BN",
 		"mapLink": "https://maps.app.goo.gl/gsmAHD5P9W1Vwsm26",
 		"homeTeam": "Ravens (BLACK)",
-		"awayTeam": "Watford Hongkongers (YELLOW)",
-		"homeScore": "",
-		"awayScore": "",
-		"scoresheet": 0,
-		"stats": 0,
+		"awayTeam": "Watford Hongkongers (WHITE)",
+		"homeScore": "36",
+		"awayScore": "72",
+		"scoresheet": 1,
+		"stats": 1,
 		"squad": [
 			{
 				"kit": "11",
