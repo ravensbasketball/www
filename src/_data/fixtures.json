@@ -798,7 +798,7 @@
 			"kit": "24",
 			"givenName": "Gaetano",
 			"familyName": "Lo Nigro",
-			"available": 0
+			"available": 1
 		},
 		{
 			"kit": "28",
@@ -828,7 +828,7 @@
 			"kit": "7",
 			"givenName": "Otto",
 			"familyName": "Opiyo",
-			"available": 1
+			"available": 0
 		},
 		{
 			"kit": "6",
