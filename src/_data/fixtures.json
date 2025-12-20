@@ -756,7 +756,7 @@
 		"homeScore": "70",
 		"awayScore": "38",
 		"scoresheet": 1,
-		"stats": 0,
+		"stats": 1,
 		"squad": [
 		{
 			"kit": "11",
