@@ -753,9 +753,9 @@
 		"mapLink": "https://maps.app.goo.gl/ZaZ11Jn2QYC2sHt68",
 		"homeTeam": "Hemel Wolves 2 (WHITE)",
 		"awayTeam": "Ravens (BLACK)",
-		"homeScore": "",
-		"awayScore": "",
-		"scoresheet": 0,
+		"homeScore": "70",
+		"awayScore": "38",
+		"scoresheet": 1,
 		"stats": 0,
 		"squad": [
 		{
