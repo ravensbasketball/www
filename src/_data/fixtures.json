@@ -967,7 +967,92 @@
 		"awayScore": "",
 		"scoresheet": 0,
 		"stats": 0,
-		"squad": [],
+		"squad": [
+			{
+				"kit": "11",
+				"givenName": "Cameron",
+				"familyName": "Walters",
+				"available": 0
+			},
+			{
+				"kit": "22",
+				"givenName": "Damir",
+				"familyName": "Davis",
+				"available": 0
+			},
+			{
+				"kit": "49",
+				"givenName": "Dan",
+				"familyName": "Bernard",
+				"available": 0
+			},
+			{
+				"kit": "17",
+				"givenName": "Dan",
+				"familyName": "Large",
+				"available": 1
+			},
+			{
+				"kit": "4",
+				"givenName": "David",
+				"familyName": "Shore",
+				"available": 0
+			},
+			{
+				"kit": "5",
+				"givenName": "Dominic",
+				"familyName": "Garcia",
+				"available": 0
+			},
+			{
+				"kit": "24",
+				"givenName": "Gaetano",
+				"familyName": "Lo Nigro",
+				"available": 0
+			},
+			{
+				"kit": "28",
+				"givenName": "Greg",
+				"familyName": "Seymour",
+				"available": 0
+			},
+			{
+				"kit": "0",
+				"givenName": "Keith",
+				"familyName": "Bragg",
+				"available": 1
+			},
+			{
+				"kit": "55",
+				"givenName": "Lester",
+				"familyName": "Confessor",
+				"available": 0
+			},
+			{
+				"kit": "33",
+				"givenName": "Neil",
+				"familyName": "McCutcheon",
+				"available": 0
+			},
+			{
+				"kit": "7",
+				"givenName": "Otto",
+				"familyName": "Opiyo",
+				"available": 0
+			},
+			{
+				"kit": "6",
+				"givenName": "Richard",
+				"familyName": "Herbert",
+				"available": 1
+			},
+			{
+				"kit": "14",
+				"givenName": "Simon",
+				"familyName": "Jackson-Turner",
+				"available": 1
+			}
+		],
 		"officials": []
 	},
 	{
