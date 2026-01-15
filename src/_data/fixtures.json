@@ -963,10 +963,10 @@
 		"mapLink": "https://maps.app.goo.gl/LVXT8SF7nTUomGLWA",
 		"homeTeam": "Herts Heat",
 		"awayTeam": "Ravens (WHITE)",
-		"homeScore": "",
-		"awayScore": "",
-		"scoresheet": 0,
-		"stats": 0,
+		"homeScore": "119",
+		"awayScore": "34",
+		"scoresheet": 1,
+		"stats": 1,
 		"squad": [
 			{
 				"kit": "11",
@@ -1008,7 +1008,7 @@
 				"kit": "24",
 				"givenName": "Gaetano",
 				"familyName": "Lo Nigro",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "28",
