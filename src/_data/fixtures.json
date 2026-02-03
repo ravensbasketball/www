@@ -1161,8 +1161,8 @@
 		"awayTeam": "Oaklands Vets",
 		"homeScore": "",
 		"awayScore": "",
-		"scoresheet": 0,
-		"stats": 0,
+		"scoresheet": 1,
+		"stats": 1,
 		"squad": [
 			{
 				"kit": "11",
