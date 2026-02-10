@@ -950,10 +950,10 @@
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens (WHITE)",
 		"awayTeam": "West Herts Warriors",
-		"homeScore": "",
-		"awayScore": "",
+		"homeScore": "41",
+		"awayScore": "72",
 		"scoresheet": 0,
-		"stats": 0,
+		"stats": 1,
 		"squad": [
 			{
 				"kit": "11",
