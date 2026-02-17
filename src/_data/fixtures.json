@@ -1257,10 +1257,10 @@
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens (WHITE)",
 		"awayTeam": "Hatfield Magic",
-		"homeScore": "",
-		"awayScore": "",
+		"homeScore": "54",
+		"awayScore": "61",
 		"scoresheet": 0,
-		"stats": 0,
+		"stats": 1,
 		"squad": [
 			{
 				"kit": "11",
