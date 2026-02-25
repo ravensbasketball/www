@@ -1161,7 +1161,7 @@
 				"kit": "22",
 				"givenName": "Damir",
 				"familyName": "Davis",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "49",
@@ -1440,9 +1440,9 @@
 		"mapLink": "https://maps.app.goo.gl/Cchcr1TVd2KjAcCYA",
 		"homeTeam": "Oaklands Vets",
 		"awayTeam": "Ravens (WHITE)",
-		"homeScore": "",
-		"awayScore": "",
-		"scoresheet": 0,
+		"homeScore": "103",
+		"awayScore": "48",
+		"scoresheet": 1,
 		"stats": 0,
 		"squad": [
 			{
