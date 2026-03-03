@@ -1149,7 +1149,7 @@
 		"homeScore": "49",
 		"awayScore": "78",
 		"scoresheet": 1,
-		"stats": 0,
+		"stats": 1,
 		"squad": [
 			{
 				"kit": "11",
@@ -1541,7 +1541,7 @@
 		"homeScore": "",
 		"awayScore": "",
 		"scoresheet": 0,
-		"stats": 1,
+		"stats": 0,
 		"squad": [
 			{
 				"kit": "11",
