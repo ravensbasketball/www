@@ -1761,19 +1761,19 @@
 				"kit": "17",
 				"givenName": "Dan",
 				"familyName": "Large",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "4",
 				"givenName": "David",
 				"familyName": "Shore",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "5",
 				"givenName": "Dominic",
 				"familyName": "Garcia",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "24",
@@ -1803,13 +1803,13 @@
 				"kit": "33",
 				"givenName": "Neil",
 				"familyName": "McCutcheon",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "7",
 				"givenName": "Otto",
 				"familyName": "Opiyo",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "6",
@@ -1821,7 +1821,7 @@
 				"kit": "14",
 				"givenName": "Simon",
 				"familyName": "Jackson-Turner",
-				"available": 0
+				"available": 1
 			}
 		],
 		"officials": []
