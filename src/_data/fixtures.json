@@ -1538,10 +1538,10 @@
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens (WHITE)",
 		"awayTeam": "Enfield Mercenaries",
-		"homeScore": "",
-		"awayScore": "",
-		"scoresheet": 0,
-		"stats": 0,
+		"homeScore": "54",
+		"awayScore": "78",
+		"scoresheet": 1,
+		"stats": 1,
 		"squad": [
 			{
 				"kit": "11",
