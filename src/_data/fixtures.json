@@ -1669,7 +1669,7 @@
 				"kit": "4",
 				"givenName": "David",
 				"familyName": "Shore",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "5",
@@ -1859,19 +1859,19 @@
 				"kit": "17",
 				"givenName": "Dan",
 				"familyName": "Large",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "4",
 				"givenName": "David",
 				"familyName": "Shore",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "5",
 				"givenName": "Dominic",
 				"familyName": "Garcia",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "24",
@@ -1913,7 +1913,7 @@
 				"kit": "6",
 				"givenName": "Richard",
 				"familyName": "Herbert",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "14",
