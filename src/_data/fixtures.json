@@ -1717,7 +1717,7 @@
 				"kit": "6",
 				"givenName": "Richard",
 				"familyName": "Herbert",
-				"available": 0
+				"available": 1
 			},
 			{
 				"kit": "14",
@@ -1919,7 +1919,7 @@
 				"kit": "14",
 				"givenName": "Simon",
 				"familyName": "Jackson-Turner",
-				"available": 0
+				"available": 1
 			}
 		],
 		"officials": []
