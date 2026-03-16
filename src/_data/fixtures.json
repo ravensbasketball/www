@@ -1734,10 +1734,10 @@
 		"mapLink": "https://maps.app.goo.gl/GwVjSFaKvrV3f3THA",
 		"homeTeam": "Ravens",
 		"awayTeam": "Aylesbury Dux Rebels",
-		"homeScore": "",
-		"awayScore": "",
-		"scoresheet": 0,
-		"stats": 0,
+		"homeScore": "23",
+		"awayScore": "75",
+		"scoresheet": 1,
+		"stats": 1,
 		"squad": [
 			{
 				"kit": "11",
