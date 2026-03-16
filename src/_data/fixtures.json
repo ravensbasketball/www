@@ -1717,13 +1717,13 @@
 				"kit": "6",
 				"givenName": "Richard",
 				"familyName": "Herbert",
-				"available": 1
+				"available": 0
 			},
 			{
 				"kit": "14",
 				"givenName": "Simon",
 				"familyName": "Jackson-Turner",
-				"available": 0
+				"available": 1
 			}
 		],
 		"officials": []
