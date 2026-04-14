@@ -1929,9 +1929,9 @@
 		"venue": "9 Kinetic Crescent, Mollison Avenue, Enfield, EN3 7XH",
 		"mapLink": "https://maps.app.goo.gl/e1bWayEsgjanMU8M7",
 		"homeTeam": "Enfield Mercenaries",
-		"awayTeam": "Ravens (WHITE)",
-		"homeScore": "",
-		"awayScore": "",
+		"awayTeam": "Ravens (forfeit)",
+		"homeScore": "20",
+		"awayScore": "0",
 		"scoresheet": 0,
 		"stats": 0,
 		"squad": [
