@@ -1635,9 +1635,9 @@
 		"venue": "Pendelton Sports Centre, Stotfold Road, Arlesey, SG15 6XS",
 		"mapLink": "https://maps.app.goo.gl/hSvjcdPYEpgeVNaJ6",
 		"homeTeam": "North Herts Knights 2",
-		"awayTeam": "Ravens",
-		"homeScore": "",
-		"awayScore": "",
+		"awayTeam": "Ravens (forfeit)",
+		"homeScore": "20",
+		"awayScore": "0",
 		"scoresheet": 0,
 		"stats": 0,
 		"squad": [
